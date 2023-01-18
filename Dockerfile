@@ -6,4 +6,7 @@ COPY . .
 
 RUN go build
 
+EXPOSE 8000
+
+
 CMD ["./main"]
